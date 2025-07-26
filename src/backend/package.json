@@ -1,0 +1,27 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "Dynamo DB",
+  "license": "ISC",
+  "author": "Hariraghav.S",
+  "type": "commonjs",
+  "main": "Server.js",
+  "scripts": {
+    "test": "node Server.js",
+    "start": "node Server.js",
+    "dev": "cross-env IS_OFFLINE=true node Server.js",
+    "prod": "cross-env IS_OFFLINE=false node Server.js"
+  },
+  "dependencies": {
+    "body-parser": "^2.2.0",
+    "bson": "^6.10.4",
+    "cookie-parser": "^1.4.7",
+    "cors": "^2.8.5",
+    "cross-env": "^10.0.0",
+    "crossenv": "^0.0.2-security",
+    "dotenv": "^17.2.1",
+    "dynamoose": "^4.0.4",
+    "express": "^5.1.0",
+    "uuid": "^11.1.0"
+  }
+}
